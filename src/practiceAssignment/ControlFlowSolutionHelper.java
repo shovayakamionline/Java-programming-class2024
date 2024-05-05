@@ -75,7 +75,7 @@ public class ControlFlowSolutionHelper {
             System.out.println("D");
         } else if (score < 60 && score >= 0) {
             System.out.println("F");
-        } else {
+        } else if (score < 0 || score > 100){
             System.out.println("Score out of range");
         }
     }
